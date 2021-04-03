@@ -1,38 +1,53 @@
+body {
+  font-family: serif;
+}
+
+a {
+  color:#444;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 200%;
+  color: #444;
+}
+
 .App {
+  padding: 240px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 96px;
+  color: #ff0000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.message {
+  padding: 12px 0 48px;
+  font-size: 20px;
+  color: #ff0000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.aquatic {
+  padding: 3rem;
+  font-size: 16px;
+  color: #ccc;
 }
 
-.App-link {
-  color: #61dafb;
+.concept {
+  padding: 24px 0;
+  font-family: source-han-sans-japanese,Hiragino Sans,ヒラギノ角ゴ ProN W3,Meiryo,sans-serif;
+  font-size: 16px;
+  line-height: 200%;
+  color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.play {
+  padding: 12px 0 48px;
+}
+
+.contact {
+  padding: 0;
 }
