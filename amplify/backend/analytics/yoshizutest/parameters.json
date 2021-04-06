@@ -1,0 +1,21 @@
+{
+    "appName": "yoshizutest",
+    "roleName": "pinpointLambdaRoleac4a06aa",
+    "cloudformationPolicyName": "cloudformationPolicyac4a06aa",
+    "cloudWatchPolicyName": "cloudWatchPolicyac4a06aa",
+    "pinpointPolicyName": "pinpointPolicyac4a06aa",
+    "authPolicyName": "pinpoint_amplify_ac4a06aa",
+    "unauthPolicyName": "pinpoint_amplify_ac4a06aa",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
